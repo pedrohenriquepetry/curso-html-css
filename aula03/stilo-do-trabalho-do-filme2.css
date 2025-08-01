@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.person-name {
+    color: gray;
+    font-size: 70px;
+    margin: 3px 0px;
+    padding: 3px;
+}
+.person-name.steve {
+    color: rgb(23, 170, 170);
+    border: 5px solid rgb(23, 170, 170);
+}
+.person-name.garrett {
+    color: #f77b90;
+    border: 5px solid #f77b90;
+}
+.person-name.natalie {
+    color: cyan;
+    border: 5px solid cyan;
+}
+.person-name.henry {
+    color: red;
+    border: 5px solid red;
+}
+.person-name.dawn {
+    color: blueviolet;
+    border: 5px solid blueviolet;
+}
+.person-name.Technoblade {
+    color: pink;
+    border: 5px solid yellow;
+}
+* {
+    font-family: "Minecraft Regular";
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.technoblade {
+    color: rgb(189, 143, 152);
+}
+.technoblade-name {
+    font-size: 70px;
+}
+/*.person_name {}  Snake Case */
+/*.person-name {usar sempre este}  Kebab Case */
+/*.personName {}   Camel Case */
+/*.PersonName{}    Pascal Case */

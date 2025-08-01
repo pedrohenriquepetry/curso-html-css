@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.Silvio-Santos {
+    position: relative;
+    overflow: hidden;
+}
+.Silvio-Santos-img {
+    display: block;
+    width: 317px ;
+}
+.texto-aleatorio-do-trabalho {
+    width: 100% ;
+    font-size: 9px ;
+    background: rgba( 0, 0, 0, 0.5 ) ;
+    position: absolute;
+    bottom: 0 ;
+    color: #d6d6d6;
+    padding: 10px;
+    font-family: Arial ;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+    opacity: 0;
+}
+body {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+.Silvio-Santos:hover .texto-aleatorio-do-trabalho {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/*- Aumentar a fonte pra 14px
+- Usar flex pra posicionar a imagem do silvio
+- Fazer o bloco preto aparecer apenas quando passar o mouse no card do silvio*/
+
