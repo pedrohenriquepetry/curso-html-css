@@ -1,0 +1,33 @@
+
+ .H {
+  font-size: 50px;
+}
+ .p,
+ .img,
+ .input {
+  background-color: black;
+  color:  #ffffff;
+}
+ .cor1 {
+  background-color:rgb(253, 141, 160) ;
+ }
+ .cor {
+  background-color:blue ;
+ }
+ .cor2 {
+  background-color:green ;
+ }
+ .cor3 {
+  background-color:rgb(255, 115, 0) ;
+ }
+ .cor0 {
+  background-color: yellow ;
+ }
+ .sublinhagem {
+  border-bottom: 2px solid blue;
+  display: inline-block
+ }
+ .risco {
+ text-decoration: line-through;
+ color: gray;
+ }
